@@ -126,10 +126,9 @@
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: 2; /* Ensure the shadows appear above the main content */
     background-image: url('assets/shadows.png'); /* Specify the path to your shadows image */
     background-repeat: repeat-y; /* Repeat the shadows vertically */
-    animation: moveShadows 10s infinite linear; /* Shadow movement animation */
+    animation: moveShadows 10s infinite linear alternate; /* Shadow movement animation */
 }
 
 @keyframes moveShadows {
