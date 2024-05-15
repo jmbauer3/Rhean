@@ -133,6 +133,6 @@
 }
 
 @keyframes moveShadows {
-    0% { transform: translateX(-100%); } /* Start from the left */
-    100% { transform: translateX(100%); } /* Move to the right */
+    0% { transform: translateX(-50%); } /* Start from the left */
+    50% { transform: translateX(50%); } /* Move to the right */
 }
