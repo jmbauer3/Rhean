@@ -8,22 +8,25 @@
     <link rel="icon" type="image/png" href="assets/favicon.png"> <!-- Link to your favicon -->
     <style>
         /* Additional styles */
+        .header-title {
+            font-size: 24px; /* Adjust font size */
+            color: #ffffff; /* Themed text color */
+            text-align: center; /* Center align the text */
+            margin-top: 20px; /* Add margin at the top */
+            font-family: 'RunicFont', 'New Tegomin', Arial, sans-serif; /* Use the runic font as the primary font, with fallbacks */
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Add a slight shadow effect */
+        }
+
         .content {
-            background-color: #0d1b2a; /* Dark blue background color */
             padding: 20px; /* Padding for better readability */
             color: #ffffff; /* Themed text color */
             text-align: center; /* Center align the text */
             margin: 0 auto; /* Center horizontally */
             max-width: 800px; /* Set maximum width */
             line-height: 1.6; /* Increase line height for better readability */
-            border: 2px solid #d1a287; /* Border color complements the theme */
             border-radius: 10px; /* Rounded border for a softer look */
-        }
-
-        .music-title {
-            color: #ffffff; /* White text color */
-            font-size: 20px; /* Adjust font size */
-            margin-top: 10px; /* Add margin at the top */
+            background-color: #0d1b2a; /* Solid blue background color */
+            border: 2px solid #d1a287; /* Border color complements the theme */
         }
     </style>
 </head>
@@ -35,14 +38,14 @@
         </a>
     </div>
 
+    <div class="header-title">Forget Me Not</div> <!-- Header title -->
+
     <!-- Music Player -->
-     <div class="music-title">Echoes of the Steppe</div> <!-- Title above the media player -->
     <div class="music-player">
-        <audio controls autoplay>
+        <audio controls autoplay title="Echoes of the Steppe">
             <source src="assets/Echoes_of_the_Steppe.mp3" type="audio/mpeg">
             Your browser does not support the audio element.
         </audio>
-       
     </div>
 
     <div class="content">
