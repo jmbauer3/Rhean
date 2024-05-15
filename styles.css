@@ -131,7 +131,7 @@
     background-image: url('assets/shadows.png'); /* Specify the path to your shadows image */
     background-size: auto; /* Auto size for the shadows */
     background-repeat: repeat-y; /* Repeat the shadows vertically */
-    z-index: 1; /* Ensure the shadows appear above the main background */
+    z-index: 2; /* Ensure the shadows appear above the main background */
     animation: moveShadows 10s infinite linear; /* Shadow movement animation */
 }
 
