@@ -70,7 +70,6 @@
 .buy-button,
 .subscribe-button {
     display: inline-block;
-    margin: 10px;
     padding: 10px 10px;
     font-size: 16px;
     text-decoration: none;
@@ -105,7 +104,7 @@
 }
 
 /* Bottom banner styles */
-.background-image {
+.body {
     position: fixed;
     bottom: 0;
     left: 0;
