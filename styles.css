@@ -35,3 +35,10 @@
 .hidden {
     display: none;
 }
+
+
+body {
+    background-image: url('assets/background-image.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
