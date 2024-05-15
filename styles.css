@@ -82,3 +82,19 @@ body {
     margin: 0 auto;
     border-radius: 10px;
 }
+
+
+/* Rest of your CSS styles remain unchanged */
+
+/* Styles for the "Learn More" text */
+.learn-more {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    color: #a67273; /* Light text color */
+    cursor: pointer;
+}
+
+.learn-more:hover {
+    text-decoration: underline;
+}
