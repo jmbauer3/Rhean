@@ -42,28 +42,6 @@ body {
     z-index: 10000; /* Ensure the buttons appear above the bottom banner */
 }
 
-/* More info section styles */
-#more-info {
-    padding: 50px;
-    text-align: center; /* Center align the content */
-}
-
-#more-info img.map-image {
-    max-width: 100%;
-    height: auto;
-    max-height: 400px; /* Limit the height of the map image */
-    margin: 0 auto;
-    border-radius: 10px;
-}
-
-#more-info .content {
-    margin-top: 20px;
-}
-
-#more-info .content p {
-    margin-bottom: 20px;
-}
-
 /* Hidden class */
 .hidden {
     display: none;
@@ -85,8 +63,6 @@ body {
     background-repeat: no-repeat; /* Prevent background image from repeating */
     background-position: center; /* Center the background image */
 }
-
-/* Rest of your CSS styles remain unchanged */
 
 /* Styles for the "Learn More" text */
 .learn-more {
