@@ -114,24 +114,25 @@
     animation: moveBackground 5s linear; /* Animation for moving background */
 }
 
-.shadows {
-    position: absolute; /* Position the shadows relative to the body */
-    top: 0; /* Position the shadows at the top of the page */
-    left: 0; /* Align the shadows to the left */
-    width: 100%; /* Make the shadows cover the entire width */
-    height: 100%; /* Make the shadows cover the entire height */
-    image: url('assets/shadows.png'); /* Specify the path to your shadows image */
-    background-repeat: repeat-y; /* Repeat the shadows vertically */
-    z-index: 2; /* Ensure the shadows appear above the main background */
-    animation: moveShadows 10s infinite linear; /* Shadow movement animation */
-}
-
 @keyframes moveBackground {
     0% { background-position-y: 0; } /* Initial position */
     50% { background-position-y: 50%; } /* Move to the bottom */
 }
 
+
+.shadows {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2; /* Ensure the shadows appear above the main content */
+    background-image: url('assets/shadows.png'); /* Specify the path to your shadows image */
+    background-repeat: repeat-y; /* Repeat the shadows vertically */
+    animation: moveShadows 10s infinite linear; /* Shadow movement animation */
+}
+
 @keyframes moveShadows {
-    0% { left: 0; } /* Initial position, move shadows to the left */
-    100% { left: 100%; } /* Move shadows to the right */
+    0% { transform: translateX(-100%); } /* Start from the left */
+    100% { transform: translateX(100%); } /* Move to the right */
 }
