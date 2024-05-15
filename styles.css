@@ -42,10 +42,6 @@ body {
     z-index: 10000; /* Ensure the buttons appear above the bottom banner */
 }
 
-/* Hidden class */
-.hidden {
-    display: none;
-}
 
 /* Rest of your CSS styles remain unchanged */
 
