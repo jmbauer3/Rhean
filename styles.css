@@ -129,10 +129,10 @@
     z-index: -1; /* Ensure the shadows appear above the main content */
     background-image: url('assets/shadows.png'); /* Specify the path to your shadows image */
     background-repeat: repeat-x; /* Repeat the shadows vertically */
-    animation: moveShadows 10s infinite linear alternate; /* Shadow movement animation */
+    animation: moveShadows 10s infinite linear; /* Shadow movement animation */
 }
 
 @keyframes moveShadows {
-    0% { transform: translateX(-50%); } /* Start from the left */
-    50% { transform: translateX(100%); } /* Move to the right */
+    0% { transform: translateX(-100%); } /* Start from the left */
+    100% { transform: translateX(100%); } /* Move to the right */
 }
