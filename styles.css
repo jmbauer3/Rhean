@@ -81,7 +81,7 @@ body {
     z-index: -1; /* Ensure the banner appears behind other content */
     opacity: 0.5; /* Adjust the opacity as needed */
     background-image: url('assets/bottom-banner.jpg'); /* Background image URL */
-    background-size: cover; /* Scale background image to cover the entire element */
+    background-size: auto; /* Maintain the original size of the background image */
     background-repeat: no-repeat; /* Prevent background image from repeating */
 }
 
