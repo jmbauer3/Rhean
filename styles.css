@@ -103,3 +103,16 @@
     font-size: 20px; /* Adjust font size */
     margin-top: 10px; /* Add margin at the top */
 }
+
+/* Bottom banner styles */
+.bottom-banner {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: auto; /* Allow the height to adjust based on the aspect ratio */
+    background-image: url('assets/bottom-banner.jpg');
+    background-size: contain; /* Ensure the image maintains its aspect ratio */
+    background-repeat: no-repeat;
+    background-position: center;
+}
