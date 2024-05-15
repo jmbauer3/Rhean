@@ -42,7 +42,6 @@ body {
     z-index: 10000; /* Ensure the buttons appear above the bottom banner */
 }
 
-
 /* Rest of your CSS styles remain unchanged */
 
 .bottom-banner {
@@ -73,7 +72,6 @@ body {
     text-decoration: underline;
 }
 
-
 /* Rest of your CSS styles remain unchanged */
 
 #more-info .content {
@@ -82,7 +80,7 @@ body {
     padding: 0 20px; /* Add some padding for better readability */
     line-height: 1.6; /* Increase line height for better readability */
     max-width: 600px; /* Limit the width of the content */
-    margin: 0 auto; /* Center the content horizontally */
+    margin: 10px auto; /* Center the content horizontally and adjust the margin from the top */
 }
 
 #more-info .buttons {
