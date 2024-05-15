@@ -121,6 +121,7 @@
     background-size: cover; /* Cover the entire background */
     background-repeat: no-repeat; /* Prevent the background from repeating */
     background-position: center; /* Center the background image */
+        z-index: 0; /* Lower z-index for the bottom background */
 }
 
 .shadows {
