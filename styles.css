@@ -121,11 +121,17 @@
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: 0; /* Lower z-index for the bottom background */
+    z-index: -10; /* Lower z-index for the bottom background */
     background-image: url('assets/bottom-banner.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    animation: moveBackground 5s linear forwards; /* Animation for moving background */
+}
+
+@keyframes moveBackground {
+    0% { background-position: center top; }
+    100% { background-position: center bottom; }
 }
 
 /* Shadows styles */
@@ -134,12 +140,13 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 100px; /* Adjust the height as needed */
     z-index: 1; /* Higher z-index for the dancing shadows */
     background-image: url('assets/shadows.png');
     background-repeat: repeat-x; /* Repeat horizontally */
     animation: dance 10s infinite linear; /* Adjust animation duration as needed */
 }
+
 
 @keyframes dance {
     0% { background-position: 0 0; }
