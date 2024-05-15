@@ -123,7 +123,6 @@
 }
 
 .shadows {
-    position: absolute; /* Position the shadows relative to the body */
     top: 0; /* Position the shadows at the top of the page */
     left: 0; /* Align the shadows to the left */
     width: 100%; /* Make the shadows cover the entire width */
