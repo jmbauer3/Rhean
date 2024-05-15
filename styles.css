@@ -1,91 +1,27 @@
-/* General styles */
-body {
-    background-color: #150607; /* Very dark red background color */
-    color: #a67273; /* Light text color for better contrast */
-    font-family: 'RunicFont', 'New Tegomin', Arial, sans-serif; /* Use the runic font as the primary font, with fallbacks */
-    margin: 0; /* Remove default margin */
-}
-
-/* Welcome screen styles */
-.welcome-screen {
-    text-align: center;
-    padding: 50px; /* Add some padding for better spacing */
-}
-
-.welcome-screen img {
-    max-width: 100%;
-    height: auto;
-    max-height: 300px; /* Adjust the maximum height as needed */
-    margin-bottom: 20px; /* Add margin at the bottom */
-    border-radius: 10px; /* Add a slight border radius for a softer look */
-}
-
-.buttons {
-    margin-top: 20px;
-    text-align: center; /* Center align the buttons */
-}
-
+/* Text effects for better readability */
+.content p,
 .buy-button,
 .subscribe-button {
-    display: inline-block;
-    margin: 10px;
-    padding: 10px 20px;
-    font-size: 16px;
-    text-decoration: none;
-    color: #a67273; /* Light text color */
-    background-color: #390e0d; /* Glowing red button color */
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    box-shadow: 0 0 10px rgba(105, 45, 45, 0.5); /* Glowing effect */
-    position: relative; /* Ensure z-index works */
-    z-index: 10000; /* Ensure the buttons appear above the bottom banner */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Adjusted shadow color */
 }
 
-/* Content styles */
+/* Background Image Size */
 .content {
-    background-color: #d1a287; /* Solid color background */
-    padding: 20px; /* Padding for better readability */
-    color: #ffffff; /* Themed text color */
-    text-align: center; /* Center align the text */
-    margin: 0 auto; /* Center horizontally */
-    max-width: 800px; /* Set maximum width */
-    line-height: 1.6; /* Increase line height for better readability */
+    background-image: url('assets/bottom-banner.jpg');
+    background-size: contain; /* Change to maintain original aspect ratio */
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20px;
+    color: #ffffff;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 800px;
+    line-height: 1.6;
 }
 
-/* Bottom banner styles */
-.bottom-banner {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%; /* Cover the entire viewport height */
-    background-color: rgba(21, 6, 7, 0.5); /* Transparent dark red background color */
-    z-index: -10; /* Ensure the banner appears behind other content */
-    opacity: 0.5; /* Adjust the opacity as needed */
-    background-image: url('assets/bottom-banner.jpg'); /* Background image URL */
-    background-size: cover; /* Maintain the original aspect ratio of the background image */
-    background-repeat: no-repeat; /* Prevent background image from repeating */
-    background-position: center; /* Center the background image */
-}
-
-/* Music player styles */
-.music-player {
-    text-align: center; /* Center align the music player */
-    margin-top: 0; /* Remove margin at the top */
-}
-
-/* Music player title styles */
-.music-title {
-    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
-    color: #ffffff; /* White text color */
-    padding: 5px 10px; /* Padding for the title */
-    font-size: 16px; /* Adjust font size */
-    margin-top: 10px; /* Add margin at the top */
-    border-radius: 5px; /* Add border radius for a softer look */
-    display: inline-block; /* Ensure it's displayed inline */
-}
-
-/* Text effects for better readability */
-.content p {
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Add a slight shadow effect */
+/* Button Hover Effects */
+.buy-button:hover,
+.subscribe-button:hover {
+    background-color: #4e1615; /* Darker background color on hover */
+    transform: scale(1.05); /* Slight scale increase on hover */
 }
