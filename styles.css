@@ -59,7 +59,7 @@ body {
     z-index: -10; /* Ensure the banner appears behind other content */
     opacity: 0.5; /* Adjust the opacity as needed */
     background-image: url('assets/bottom-banner.jpg'); /* Background image URL */
-    background-size: contain; /* Maintain the original dimensions of the background image */
+    background-size: contain; /* Maintain the original aspect ratio of the background image */
     background-repeat: no-repeat; /* Prevent background image from repeating */
     background-position: center; /* Center the background image */
 }
