@@ -1,0 +1,37 @@
+/* Styles for the welcome screen */
+.welcome-screen {
+    text-align: center;
+}
+
+.welcome-screen img {
+    max-width: 100%;
+    height: auto;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.buy-button,
+.subscribe-button,
+#learn-more-button {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Styles for the interactive map */
+#map-container {
+    /* Define styles for your interactive map */
+}
+
+.hidden {
+    display: none;
+}
