@@ -64,6 +64,7 @@
 /* Button styles */
 .buttons {
     margin-top: 20px;
+    margin-bottom: 20px
     text-align: center; /* Center align the buttons */
 }
 
