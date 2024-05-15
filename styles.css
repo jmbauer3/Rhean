@@ -76,12 +76,12 @@ body {
 /* Rest of your CSS styles remain unchanged */
 
 .bottom-banner {
-    display: block;
-    max-width: 100%;
-    height: auto;
-    margin: 0 auto;
-    border-radius: 10px;
-}
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999; /* Ensure the banner appears above other content */
+    opacity: 0.5; /* Adjust the opacity as needed */
 
 
 /* Rest of your CSS styles remain unchanged */
