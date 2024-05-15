@@ -45,10 +45,10 @@ body {
 /* Content styles */
 .content {
     text-align: center; /* Center align the content */
-    color: #ffffff; /* Change text color to white */
-    padding: 0 20px; /* Add some padding for better readability */
+    color: #d9a899; /* Themed text color */
+    padding: 20px; /* Add padding for better readability */
     line-height: 1.6; /* Increase line height for better readability */
-    margin-bottom: 20px; /* Add margin at the bottom */
+    margin: 0; /* Remove default margin */
 }
 
 /* Bottom banner styles */
