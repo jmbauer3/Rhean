@@ -1,8 +1,9 @@
 /* General styles */
 body {
     background-color: #150607; /* Very dark red background color */
-    color: #d1b3b5; /* Thematic text color */
+    color: #a67273; /* Light text color for better contrast */
     font-family: 'RunicFont', 'New Tegomin', Arial, sans-serif; /* Use the runic font as the primary font, with fallbacks */
+    margin: 0; /* Remove default margin */
 }
 
 /* Welcome screen styles */
@@ -15,7 +16,7 @@ body {
     max-width: 100%;
     height: auto;
     max-height: 300px; /* Adjust the maximum height as needed */
-    margin: 0 auto;
+    margin-bottom: 20px; /* Add margin at the bottom */
     border-radius: 10px; /* Add a slight border radius for a softer look */
 }
 
@@ -25,14 +26,13 @@ body {
 }
 
 .buy-button,
-.subscribe-button,
-#learn-more-button {
+.subscribe-button {
     display: inline-block;
     margin: 10px;
     padding: 10px 20px;
     font-size: 16px;
     text-decoration: none;
-    color: #d1b3b5; /* Thematic text color */
+    color: #a67273; /* Light text color */
     background-color: #390e0d; /* Glowing red button color */
     border: none;
     border-radius: 5px;
@@ -42,8 +42,16 @@ body {
     z-index: 10000; /* Ensure the buttons appear above the bottom banner */
 }
 
-/* Rest of your CSS styles remain unchanged */
+/* Content styles */
+.content {
+    text-align: center; /* Center align the content */
+    color: #ffffff; /* Change text color to white */
+    padding: 0 20px; /* Add some padding for better readability */
+    line-height: 1.6; /* Increase line height for better readability */
+    margin-bottom: 20px; /* Add margin at the bottom */
+}
 
+/* Bottom banner styles */
 .bottom-banner {
     position: fixed;
     bottom: 0;
@@ -59,36 +67,8 @@ body {
     background-position: center; /* Center the background image */
 }
 
-/* Styles for the "Learn More" text */
-.learn-more {
-    text-align: center;
-    margin-top: 20px;
-    font-size: 20px;
-    color: #d1b3b5; /* Thematic text color */
-    cursor: pointer;
-}
-
-.learn-more:hover {
-    text-decoration: underline;
-}
-
-/* Rest of your CSS styles remain unchanged */
-
-#more-info .content {
-    text-align: justify; /* Justify text for a more thematic look */
-    color: #d1b3b5; /* Thematic text color */
-    padding: 0 20px; /* Add some padding for better readability */
-    line-height: 1.6; /* Increase line height for better readability */
-    max-width: 600px; /* Limit the width of the content */
-    margin: 10px auto; /* Center the content horizontally and adjust the margin from the top */
-}
-
-#more-info .buttons {
-    text-align: center;
-    margin-top: 20px; /* Adjust the spacing between content and buttons */
-}
-
+/* Music player styles */
 .music-player {
-    text-align: center; /* Center the music player */
-    margin-top: 20px; /* Add some top margin for spacing */
+    text-align: center; /* Center align the music player */
+    margin-top: 20px; /* Add margin at the top */
 }
