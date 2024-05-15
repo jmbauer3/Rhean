@@ -1,10 +1,7 @@
-body {
-    background-color: #4d0000; /* Very dark red background color */
-    color: #ffcccc; /* Light text color for better contrast */
-    font-family: Arial, sans-serif; /* Choose a suitable font */
-}
+/* Load Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
 
-/* Styles for the welcome screen */
+/* Define styles for the welcome screen */
 .welcome-screen {
     text-align: center;
     padding: 50px; /* Add some padding for better spacing */
@@ -30,18 +27,18 @@ body {
     padding: 10px 20px;
     font-size: 16px;
     text-decoration: none;
-    color: #ffcccc; /* Light text color */
-    background-color: #ff3333; /* Glowing red button color */
+    color: #a67273; /* Light text color */
+    background-color: #390e0d; /* Glowing red button color */
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    box-shadow: 0 0 10px rgba(255, 51, 51, 0.5); /* Glowing effect */
+    box-shadow: 0 0 10px rgba(105, 45, 45, 0.5); /* Glowing effect */
 }
 
 .buy-button:hover,
 .subscribe-button:hover,
 #learn-more-button:hover {
-    background-color: #ff6666; /* Brighter red on hover */
+    background-color: #652827; /* Brighter red on hover */
 }
 
 /* Styles for the interactive map */
@@ -51,4 +48,19 @@ body {
 
 .hidden {
     display: none;
+}
+
+
+@font-face {
+    font-family: 'RunicFont';
+    src: url('path/to/runic-font.woff2') format('woff2'),
+         url('path/to/runic-font.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+body {
+    background-color: #150607; /* Very dark red background color */
+    color: #a67273; /* Light text color for better contrast */
+    font-family: 'RunicFont', 'New Tegomin', Arial, sans-serif; /* Use the runic font as the primary font, with fallbacks */
 }
