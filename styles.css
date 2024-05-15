@@ -128,3 +128,21 @@
     0% { background-position-y: 0; } /* Initial position */
     100% { background-position-y: 100%; } /* Move to the bottom */
 }
+
+.shadows {
+    position: fixed; /* Keep the shadows fixed while scrolling */
+    top: 0; /* Position the shadows at the top of the page */
+    left: 0; /* Align the shadows to the left */
+    width: 100%; /* Make the shadows cover the entire width */
+    height: 100%; /* Make the shadows cover the entire height */
+    background-image: url('assets/shadows.png'); /* Specify the path to your shadows image */
+    background-size: auto; /* Auto size for the shadows */
+    background-repeat: repeat-y; /* Repeat the shadows vertically */
+    z-index: 1; /* Ensure the shadows appear above the main background */
+    animation: flames 5s infinite alternate; /* Flame animation */
+}
+
+@keyframes flames {
+    0% { background-position-y: 0; } /* Initial position */
+    100% { background-position-y: 100%; } /* Move to the bottom */
+}
