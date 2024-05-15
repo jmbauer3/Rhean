@@ -131,8 +131,8 @@
 }
 
 @keyframes moveBackground {
-    0% { background-position: center top; }
-    100% { background-position: center calc(100% - 100vh); }
+    0% { background-position: 0; }
+    100% { background-position: 100%; }
 }
 
 /* Shadows styles */
