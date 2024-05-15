@@ -123,7 +123,7 @@
 }
 
 .shadows {
-    position: absolute; /* Position the shadows relative to the body */
+    position: relative; /* Make the body relative for positioning the shadows */
     background-image: url('assets/shadows.png'); /* Specify the path to your images */
     background-size: cover, auto; /* Cover the entire background for the main image, auto size for the shadows */
     background-repeat: no-repeat, repeat-y; /* Prevent the background from repeating for the main image, repeat vertically for the shadows */
