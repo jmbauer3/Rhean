@@ -87,3 +87,8 @@ body {
     text-align: center;
     margin-top: 20px; /* Adjust the spacing between content and buttons */
 }
+
+.music-player {
+    text-align: center; /* Center the music player */
+    margin-top: 20px; /* Add some top margin for spacing */
+}
