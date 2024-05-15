@@ -1,41 +1,23 @@
+/* General styles */
 body {
     background-color: #150607; /* Very dark red background color */
     color: #a67273; /* Light text color for better contrast */
     font-family: 'RunicFont', 'New Tegomin', Arial, sans-serif; /* Use the runic font as the primary font, with fallbacks */
 }
 
-/* Rest of your CSS styles remain unchanged */
-
-#more-info {
-    padding: 50px;
+/* Welcome screen styles */
+.welcome-screen {
+    text-align: center;
+    padding: 50px; /* Add some padding for better spacing */
 }
-
-#more-info img {
-    max-width: 100%;
-    height: auto;
-    margin: 0 auto;
-    border-radius: 10px;
-}
-
-#more-info .content {
-    margin-top: 20px;
-}
-
-#more-info .content p {
-    margin-bottom: 20px;
-}
-
-/* Rest of your CSS styles remain unchanged */
 
 .welcome-screen img {
     max-width: 100%;
     height: auto;
     max-height: 300px; /* Adjust the maximum height as needed */
     margin: 0 auto;
-    border-radius: 10px;
+    border-radius: 10px; /* Add a slight border radius for a softer look */
 }
-
-/* Rest of your CSS styles remain unchanged */
 
 .buttons {
     margin-top: 20px;
@@ -62,4 +44,31 @@ body {
 .subscribe-button:hover,
 #learn-more-button:hover {
     background-color: #652827; /* Brighter red on hover */
+}
+
+/* More info section styles */
+#more-info {
+    padding: 50px;
+    text-align: center; /* Center align the content */
+}
+
+#more-info img.map-image {
+    max-width: 100%;
+    height: auto;
+    max-height: 400px; /* Limit the height of the map image */
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+#more-info .content {
+    margin-top: 20px;
+}
+
+#more-info .content p {
+    margin-bottom: 20px;
+}
+
+/* Hidden class */
+.hidden {
+    display: none;
 }
