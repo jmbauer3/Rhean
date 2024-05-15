@@ -72,3 +72,15 @@ body {
 .learn-more:hover {
     text-decoration: underline;
 }
+
+
+/* Rest of your CSS styles remain unchanged */
+
+#more-info .content {
+    text-align: center; /* Center align the content */
+    color: #ffffff; /* Change text color to white */
+    padding: 0 20px; /* Add some padding for better readability */
+    line-height: 1.6; /* Increase line height for better readability */
+}
+
+/* Rest of your CSS styles remain unchanged */
