@@ -119,6 +119,6 @@
 
 @keyframes flames {
     0% { background-position-y: 0; } /* Initial position */
-    100% { background-position-y: 100%; } /* Move to the bottom */
+    50% { background-position-y: 50%; } /* Move to the bottom */
 }
 
