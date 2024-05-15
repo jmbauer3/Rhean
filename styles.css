@@ -109,7 +109,7 @@
 
 .body {
     position: relative; /* Make the body relative for positioning the shadows */
-    background-image: url('assets/bottom-banner.jpg'), url('assets/shadows.png'); /* Specify the path to your images */
+    background-image: url('assets/bottom-banner.jpg'),; /* Specify the path to your images */
     background-size: cover, auto; /* Cover the entire background for the main image, auto size for the shadows */
     background-repeat: no-repeat, repeat-y; /* Prevent the background from repeating for the main image, repeat vertically for the shadows */
     background-position: center, 0 0; /* Center the main image, place shadows at the top */
