@@ -24,6 +24,12 @@
     transform: scale(1.05); /* Slight scale increase on hover */
 }
 
+/* Music player styles */
+.music-player {
+    text-align: center; /* Center align the music player */
+    margin-top: 20px; /* Add margin at the top */
+}
+
 /* Music player title styles */
 .music-title {
     background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
@@ -33,6 +39,11 @@
     margin-top: 10px; /* Add margin at the top */
     border-radius: 5px; /* Add border radius for a softer look */
     display: inline-block; /* Ensure it's displayed inline */
+}
+
+/* Music player audio styles */
+.music-player audio {
+    margin-top: 10px; /* Add margin at the top */
 }
 
 /* Cover image styles */
@@ -70,4 +81,15 @@
     box-shadow: 0 0 10px rgba(105, 45, 45, 0.5); /* Glowing effect */
     position: relative; /* Ensure z-index works */
     z-index: 10000; /* Ensure the buttons appear above the bottom banner */
+}
+
+/* Content styles */
+.content {
+    background-color: #0d1b2a; /* Dark blue background color */
+    padding: 20px; /* Padding for better readability */
+    color: #ffffff; /* Themed text color */
+    text-align: center; /* Center align the text */
+    margin: 0 auto; /* Center horizontally */
+    max-width: 800px; /* Set maximum width */
+    line-height: 1.6; /* Increase line height for better readability */
 }
