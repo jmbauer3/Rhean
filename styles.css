@@ -1,7 +1,7 @@
 /* General styles */
 body {
     background-color: #150607; /* Very dark red background color */
-    color: #a67273; /* Light text color for better contrast */
+    color: #d1b3b5; /* Thematic text color */
     font-family: 'RunicFont', 'New Tegomin', Arial, sans-serif; /* Use the runic font as the primary font, with fallbacks */
 }
 
@@ -32,7 +32,7 @@ body {
     padding: 10px 20px;
     font-size: 16px;
     text-decoration: none;
-    color: #a67273; /* Light text color */
+    color: #d1b3b5; /* Thematic text color */
     background-color: #390e0d; /* Glowing red button color */
     border: none;
     border-radius: 5px;
@@ -65,7 +65,7 @@ body {
     text-align: center;
     margin-top: 20px;
     font-size: 20px;
-    color: #a67273; /* Light text color */
+    color: #d1b3b5; /* Thematic text color */
     cursor: pointer;
 }
 
@@ -77,10 +77,10 @@ body {
 /* Rest of your CSS styles remain unchanged */
 
 #more-info .content {
-    text-align: center; /* Center align the content */
-    color: #ffffff; /* Change text color to white */
+    text-align: justify; /* Justify text for a more thematic look */
+    color: #d1b3b5; /* Thematic text color */
     padding: 0 20px; /* Add some padding for better readability */
     line-height: 1.6; /* Increase line height for better readability */
+    max-width: 600px; /* Limit the width of the content */
+    margin: 0 auto; /* Center the content horizontally */
 }
-
-/* Rest of your CSS styles remain unchanged */
