@@ -16,12 +16,14 @@
             margin: 0 auto; /* Center horizontally */
             max-width: 800px; /* Set maximum width */
             line-height: 1.6; /* Increase line height for better readability */
+            border: 2px solid #d1a287; /* Border color complements the theme */
+            border-radius: 10px; /* Rounded border for a softer look */
         }
 
         .music-title {
             color: #ffffff; /* White text color */
             font-size: 20px; /* Adjust font size */
-            margin-bottom: 10px; /* Add margin at the bottom */
+            margin-top: 10px; /* Add margin at the top */
         }
     </style>
 </head>
@@ -35,11 +37,11 @@
 
     <!-- Music Player -->
     <div class="music-player">
-        <div class="music-title">Echoes of the Steppe</div> <!-- Title above the media player -->
         <audio controls autoplay>
             <source src="assets/Echoes_of_the_Steppe.mp3" type="audio/mpeg">
             Your browser does not support the audio element.
         </audio>
+        <div class="music-title">Echoes of the Steppe</div> <!-- Title below the media player -->
     </div>
 
     <div class="content">
