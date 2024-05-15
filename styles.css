@@ -83,9 +83,9 @@
     z-index: 10000; /* Ensure the buttons appear above the bottom banner */
 }
 
-/* Content styles */
+/* Additional styles */
 .content {
-    background-color: #0d1b2a; /* Dark blue background color */
+    background-color: #0d1b2a; /* Cooler dark blue background color */
     padding: 20px; /* Padding for better readability */
     color: #ffffff; /* Themed text color */
     text-align: center; /* Center align the text */

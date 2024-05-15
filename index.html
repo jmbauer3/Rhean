@@ -9,13 +9,19 @@
     <style>
         /* Additional styles */
         .content {
-            background-color: #d1a287; /* Solid color background */
+            background-color: #0d1b2a; /* Dark blue background color */
             padding: 20px; /* Padding for better readability */
             color: #ffffff; /* Themed text color */
             text-align: center; /* Center align the text */
             margin: 0 auto; /* Center horizontally */
             max-width: 800px; /* Set maximum width */
             line-height: 1.6; /* Increase line height for better readability */
+        }
+
+        .music-title {
+            color: #ffffff; /* White text color */
+            font-size: 20px; /* Adjust font size */
+            margin-bottom: 10px; /* Add margin at the bottom */
         }
     </style>
 </head>
@@ -27,15 +33,14 @@
         </a>
     </div>
 
-<!-- Music Player -->
-<div class="music-player">
-    <audio controls autoplay title="Echoes of the Steppe">
-        <source src="assets/Echoes_of_the_Steppe.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-    </audio>
-    <div class="music-title">Echoes of the Steppe</div>
-</div>
-
+    <!-- Music Player -->
+    <div class="music-player">
+        <div class="music-title">Echoes of the Steppe</div> <!-- Title above the media player -->
+        <audio controls autoplay>
+            <source src="assets/Echoes_of_the_Steppe.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
 
     <div class="content">
         <p>Empathy and sympathy wax and wane when years are counted in millions and thousands. The cusp of a new world order or the first to fall from the heavens, Rhean Eyadu slowly learns how to survive as she's left adrift and alone across the endless sea and atop the highest mountains.</p>
