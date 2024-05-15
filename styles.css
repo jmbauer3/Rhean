@@ -121,6 +121,7 @@
     left: 0;
     width: 100%;
     height: 100%;
+    overflow: hidden; /* Hide overflow to enable scrolling */
     z-index: -10; /* Lower z-index for the bottom background */
     background-image: url('assets/bottom-banner.jpg');
     background-size: cover;
@@ -145,10 +146,4 @@
     background-image: url('assets/shadows.png');
     background-repeat: repeat-x; /* Repeat horizontally */
     animation: dance 10s infinite linear; /* Adjust animation duration as needed */
-}
-
-
-@keyframes dance {
-    0% { background-position: 0 0; }
-    100% { background-position: 100% 0; }
 }
