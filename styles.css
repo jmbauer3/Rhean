@@ -64,7 +64,7 @@
 /* Button styles */
 .buttons {
     margin-top: 20px;
-    margin-bottom: 20px
+    margin-bottom: 20px;
     text-align: center; /* Center align the buttons */
 }
 
@@ -105,7 +105,7 @@
 }
 
 /* Bottom banner styles */
-.body {
+.background-image {
     position: fixed;
     bottom: 0;
     left: 0;
