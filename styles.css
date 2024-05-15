@@ -93,3 +93,9 @@
     max-width: 800px; /* Set maximum width */
     line-height: 1.6; /* Increase line height for better readability */
 }
+
+.music-title {
+    color: #ffffff; /* White text color */
+    font-size: 20px; /* Adjust font size */
+    margin-bottom: 10px; /* Add margin at the bottom */
+}
