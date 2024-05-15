@@ -113,6 +113,16 @@
     background-attachment: fixed; /* Keep the background fixed while scrolling */
 }
 
+
+/* Additional styles */
+.body {
+    position: relative; /* Make the body relative for positioning the shadows */
+    background-image: url('assets/bottom-banner.jpg'); /* Specify the path to your main background image */
+    background-size: cover; /* Cover the entire background */
+    background-repeat: no-repeat; /* Prevent the background from repeating */
+    background-position: center; /* Center the background image */
+}
+
 .shadows {
     position: fixed; /* Keep the shadows fixed while scrolling */
     top: 0; /* Position the shadows at the top of the page */
