@@ -40,10 +40,22 @@ body {
     box-shadow: 0 0 10px rgba(105, 45, 45, 0.5); /* Glowing effect */
 }
 
-.buy-button:hover,
-.subscribe-button:hover,
-#learn-more-button:hover {
-    background-color: #652827; /* Brighter red on hover */
+.buy-button,
+.subscribe-button,
+#learn-more-button {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #a67273; /* Light text color */
+    background-color: #390e0d; /* Glowing red button color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(105, 45, 45, 0.5); /* Glowing effect */
+    position: relative; /* Ensure z-index works */
+    z-index: 10000; /* Ensure the buttons appear above the bottom banner */
 }
 
 /* More info section styles */
@@ -84,8 +96,10 @@ body {
     background-color: rgba(21, 6, 7, 0.5); /* Transparent dark red background color */
     z-index: 9999; /* Ensure the banner appears above other content */
     opacity: 0.5; /* Adjust the opacity as needed */
+    background-image: url('assets/bottom-banner.jpg'); /* Background image URL */
+    background-size: cover; /* Scale background image to cover the entire element */
+    background-repeat: no-repeat; /* Prevent background image from repeating */
 }
-
 
 /* Rest of your CSS styles remain unchanged */
 
