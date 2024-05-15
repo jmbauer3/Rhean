@@ -136,6 +136,6 @@
 }
 
 @keyframes moveShadows {
-    0% { transform: translateX(-100%); } /* Initial position, move shadows to the left */
-    100% { transform: translateX(100%); } /* Move shadows to the right */
+    0% { left: 0; } /* Initial position, move shadows to the left */
+    100% { left: 100%; } /* Move shadows to the right */
 }
